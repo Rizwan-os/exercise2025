@@ -1,0 +1,12 @@
+package um.myum.fop_week6;
+
+public class W03E63 {
+    public static void main(String[] args) {
+        int hello=20;
+        int [] num=new int[hello];
+        num[0]=1;
+        num[19]=89;
+        System.out.println("first:"+num[0]+"   Last:"+num[19]);
+    }
+    
+}

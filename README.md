@@ -56,6 +56,11 @@ The `src/W03` folder contains Java examples demonstrating conditional statements
 - [`W03E09.java`](Exercise2025/src/W03/W03E09.java) — Ternary operator (`? :`) for conditional expressions and assignments.
 - [`W03E10.java`](Exercise2025/src/W03/W03E10.java) — Nested ternary operators for grade assignment and readable if-else alternatives; demonstrates when to use ternary vs. if-else.
 
+**Tutorial Exercises (W03T):**
+- [`W03T04.java`](Exercise2025/src/W03/W03T04.java) — Find the largest of three numbers using `if-else if` statements with comparison operators.
+- [`W03T04a.java`](Exercise2025/src/W03/W03T04a.java) — Find the largest of five numbers using sequential `if` statements to track the maximum value.
+- [`W03T05.java`](Exercise2025/src/W03/W03T05.java) — Determine if a year is a leap year using logical operators (divisible by 4 and not by 100, or divisible by 400).
+
 Summary of Week 04 (W04)
 -------------------------
 The `src/W04` folder contains Java examples demonstrating loop structures and control flow:
@@ -72,10 +77,201 @@ The `src/W04` folder contains Java examples demonstrating loop structures and co
 - [`W04E10.java`](Exercise2025/src/W04/W04E10.java) — Using labeled loops with `break` and `continue`: breaking/continuing from nested loops and practical 2D array search.
 - [`W04E11.java`](Exercise2025/src/W04/W04E11.java) — Enhanced for loop (for-each loop): iterating through arrays and collections; comparison with traditional for loop; when to use each.
 
+Summary of Week 05 (W05)
+-------------------------
+The `src/W05` folder contains Java examples demonstrating different loop types, input validation, and control structures:
+
+- [`W05E01.java`](Exercise2025/src/W05/W05E01.java) — Comparing three loop types: `for`, `while`, and `do-while` loops printing even numbers 2-20. Shows how all three loops can produce identical output. (Original author: [@jitesh1059](https://github.com/jitesh1059), modified by [@hafidzmrizky](https://github.com/hafidzmrizky))
+- [`W05E02.java`](Exercise2025/src/W05/W05E02.java) — While loop with `break` statement: infinite loop `while(true)` with sentinel value (0) to exit and sum numbers. (Original author: [@ChoiJS](https://github.com/flyingshuriken))
+- [`W05E02A.java`](Exercise2025/src/W05/W05E02A.java) — Do-while loop alternative to W05E02: achieves same result using do-while structure with condition at end. (Original author: [@jitesh1059](https://github.com/jitesh1059))
+- [`W05E03.java`](Exercise2025/src/W05/W05E03.java) — String input validation with `equals()`: while loop with break, validates "yes" or "no" input with error messages.
+- [`W05E03A.java`](Exercise2025/src/W05/W05E03A.java) — Compact do-while loop: inline assignment in condition with `equalsIgnoreCase()` for case-insensitive comparison. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
+- [`W05E03B.java`](Exercise2025/src/W05/W05E03B.java) — Input validation with boolean flag: uses flag variable to track validity and provide dynamic prompts. (Original author: [@LuoYanHao-2025](https://github.com/LuoYanHao-2025))
+- [`W05E04.java`](Exercise2025/src/W05/W05E04.java) — Positive number validation: do-while loop ensures user enters positive number, counts retry attempts. (Original author: TEH JIA JIE)
+- [`W05E04C.java`](Exercise2025/src/W05/W05E04C.java) — Alternative validation approach: cleaner do-while loop with conditional prompting inside loop, uses `printf()` for formatted output.
+- [`W05E05.java`](Exercise2025/src/W05/W05E05.java) — Counting and summing even/odd numbers: for loop with modulo operator, multiple counters and accumulators. (Original author: [@IvanFong](https://github.com/IvanFong))
+- [`W05E05A.java`](Exercise2025/src/W05/W05E05A.java) — Alternative with while loop: manual counter management, counts even/odd numbers (no sums). (Original author: [@azhrn](https://github.com/azhrn))
+- [`W05E05B.java`](Exercise2025/src/W05/W05E05B.java) — Simplified version of W05E05: more compact code with combined variable declarations, counts and sums even/odd numbers with clearer output formatting.
+- [`W05E06.java`](Exercise2025/src/W05/W05E06.java) — Nested loops for square pattern: uses nested for loops to create a square grid of characters. (Original author: [@Zzfathir](https://github.com/Zzfathir))
+- [`W05E07.java`](Exercise2025/src/W05/W05E07.java) — Expenses tracker: repeatedly reads amounts, validates and sums them until the user types "done". Demonstrates input parsing with `Double.parseDouble()` and exception handling. (Original author: [@Safazalfa](https://github.com/Safazalfa))
+- [`W05E08.java`](Exercise2025/src/W05/W05E08.java) — Finding maximum and minimum values: uses `Integer.MAX_VALUE` and `Integer.MIN_VALUE` for initialization, validates input range, and tracks highest/lowest scores.
+- [`W05E09.java`](Exercise2025/src/W05/W05E09.java) — Password strength checker: analyzes password characters using `Character` class methods (isUpperCase, isLowerCase, isDigit), classifies strength as Strong/Medium/Weak based on character type diversity. (Original author: [@dejettss](https://github.com/dejettss))
+- [`W05E10.java`](Exercise2025/src/W05/W05E10.java) — Number triangle pattern generator: uses nested loops to create incrementing number patterns, outer loop controls rows, inner loop prints sequential numbers for each row. (Original author: [@shaoern0606](https://github.com/shaoern0606))
+ - [`W05E11.java`](Exercise2025/src/W05/W05E11.java) — Prime key validator: repeatedly prompts for an integer > 50, checks if it is prime, and only accepts valid prime keys. Demonstrates input validation, prime checking, and user feedback. (Original author: [@Ying038](https://github.com/Ying038))
+ - [`W05E12.java`](Exercise2025/src/W05/W05E12.java) — Fibonacci rabbit population simulation: prints the number of rabbit pairs for each month using the Fibonacci sequence, stops if the population exceeds 1000. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W05E13.java`](Exercise2025/src/W05/W05E13.java) — Christmas tree pattern generator: advanced nested loops creating a pyramid tree with trunk, uses arithmetic series for dimension calculations and space positioning for symmetrical output. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+
+Summary of Week 06 (W06)
+-------------------------
+The `src/W06` folder contains Java examples demonstrating arrays and array operations:
+
+- [`W06E01.java`](Exercise2025/src/W06/W06E01.java) — Basic array declaration and initialization: creating arrays with `new`, initializing with values, accessing and modifying elements. Shows both int and String arrays.
+- [`W06E02.java`](Exercise2025/src/W06/W06E02.java) — Array traversal: demonstrates accessing array elements individually vs. using a for loop and enhanced for-each loop. Introduces `array.length` property and shows efficient iteration methods.
+- [`W06E03.java`](Exercise2025/src/W06/W06E03.java) — Large arrays: creating an array with 100 elements, accessing first and last elements (index 0 and 99).
+- [`W06E04.java`](Exercise2025/src/W06/W06E04.java) — Character arrays: declaring, initializing, modifying, and displaying char arrays using loops.
+- [`W06E05.java`](Exercise2025/src/W06/W06E05.java) — Random array generation and counting: fills array with random 'M' or 'F' values, counts occurrences of a specific character. (Original author: [@hafidzmrizky](https://github.com/hafidzmrizky))
+- [`W06E05a.java`](Exercise2025/src/W06/W06E05a.java) — Alternative gender counting: compact version using ternary operator and inline counting during array generation. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E06.java`](Exercise2025/src/W06/W06E06.java) — String splitting: uses `String.split()` method to convert comma-separated string into array, demonstrates enhanced for-each loop. (Original author: Tey Yong Zhun)
+- [`W06E07.java`](Exercise2025/src/W06/W06E07.java) — Bubble sort algorithm: generates 20 random numbers, implements bubble sort to arrange in ascending order, displays both ascending and descending sorted arrays. (Original author: Yaseen Ayatullah Khan)
+- [`W06E08.java`](Exercise2025/src/W06/W06E08.java) — Array statistics with sorting: generates 20 random numbers, uses bubble sort, and calculates minimum (first element), maximum (last element), and sum of all elements. (Original author: Tey Yong Zhun)
+- [`W06E09.java`](Exercise2025/src/W06/W06E09.java) — Linear search algorithm: demonstrates sequential search on unsorted array with O(n) time complexity, counts comparisons to show efficiency, searches element by element from start to end. (Original author: [@muhdnuqman](https://github.com/muhdnuqman))
+- [`W06E10.java`](Exercise2025/src/W06/W06E10.java) — Binary search algorithm: demonstrates efficient divide-and-conquer search on sorted array with O(log n) time complexity, shows step-by-step search process, compares efficiency with linear search.
+
+**Tutorial Exercises (W06T):**
+- [`W06T04.java`](Exercise2025/src/W06/W06T04.java) — Counting word occurrences: searches string array for specific word ("the"), counts how many times it appears using `equals()` method.
+- [`W06T05.java`](Exercise2025/src/W06/W06T05.java) — Reversing array elements: iterates through string array in reverse order, reverses each word using `StringBuilder.reverse()`.
+- [`W06T05_1.java`](Exercise2025/src/W06/W06T05_1.java) — Alternative string reversal: demonstrates two methods - manual character iteration using `charAt()` and using `StringBuilder` for comparison.
+- [`W06T06.java`](Exercise2025/src/W06/W06T06.java) — Decimal to binary conversion: generates random number (0-255), converts to 8-bit binary representation using array, stores bits through modulo and division operations.
+
+Summary of Week 07 (W07)
+-------------------------
+The `src/W07` folder focuses on advancing method usage, 2D arrays, method overloading, array mutability, returning grouped results, shape printing, and utility algorithms:
+
+- [`W07E01.java`](Exercise2025/src/W07/W07E01.java) — 2D inventory table: rows hold shoe size & random stock; classifies status (Out / Low / Available).
+- [`W07E02.java`](Exercise2025/src/W07/W07E02.java) — Weekly sales matrix (sizes × days) with single-pass highest sale tracking.
+- [`W07E03.java`](Exercise2025/src/W07/W07E03.java) — Menu-driven launcher choosing inventory vs sales demo; highlights user input routing and helper methods.
+- [`W07E04.java`](Exercise2025/src/W07/W07E04.java) — Parameterized greeting methods showing argument passing and reuse.
+- [`W07E05.java`](Exercise2025/src/W07/W07E05.java) — Void vs return methods; sum printing vs returning and simple age validation.
+- [`W07E06.java`](Exercise2025/src/W07/W07E06.java) — Method overloading showcase (`computeArea`, `sum`, `describe`) illustrating arity, type selection, flags, and varargs precedence.
+- [`W07E07.java`](Exercise2025/src/W07/W07E07.java) — Array mutation vs pure operations; in-place transforms plus grouped statistics (min/max/sum, average/std dev) and cloning contrast.
+- [`W07L01.java`](Exercise2025/src/W07/W07L01.java) — Shape printing (triangle & diamond) via reusable `multiPrint` helper to eliminate repetition.
+- [`W07T01.java`](Exercise2025/src/W07/W07T01.java) — Assorted utilities: max-of-three, perfect square test, combinations, pentagonal detection, first duplicate random, circle metrics, letter/digit counting, random array fill.
+- [`W07T02.java`](Exercise2025/src/W07/W07T02.java) — Manual descending ordering of three ints using pairwise swaps (no arrays needed).
+
+All Week 07 examples authored by pensyarah and enriched with structured educational headers.
+
+Summary of Week 08 (W08)
+-------------------------
+The `src/W08` folder contains capstone exercises combining concepts from W01-W07 through realistic, scenario-based problems. These exercises use procedural programming with static helper methods but do not introduce object-oriented programming:
+
+- [`W08E01.java`](Exercise2025/src/W08/W08E01.java) — Student grade management system: reads student names and grades with input validation, calculates statistics (average, min, max), classifies grades as letter grades (A-F), and displays a formatted report.
+- [`W08E02.java`](Exercise2025/src/W08/W08E02.java) — Inventory management menu system: menu-driven interface using switch statements, manage product stock with parallel arrays, add/remove items with validation, search by product name, displays current inventory.
+- [`W08E03.java`](Exercise2025/src/W08/W08E03.java) — Sales analysis dashboard: analyzes 2D array of weekly sales data (products × days), calculates product and daily statistics (totals, averages, min/max), displays formatted tables and summary reports.
+- [`W08E04.java`](Exercise2025/src/W08/W08E04.java) — Text analysis tool: processes multi-line input to count characters, words, sentences, vowels, and classify character types (uppercase, lowercase, digits), provides averages and detailed breakdown using Character class methods.
+- [`W08E05.java`](Exercise2025/src/W08/W08E05.java) — Number guessing game: computer generates random number (1-100), player guesses with hot/cold feedback, tracks statistics (games played, total guesses, average guesses per game), implements game loop with replay option.
+- [`W08E06.java`](Exercise2025/src/W08/W08E06.java) — Restaurant bill calculator: reads itemized menu with prices, calculates subtotal, applies tax and delivery charges (free for large orders ≥$50), allows tip percentage selection, displays formatted receipt with locale-aware currency formatting.
+- [`W08E07.java`](Exercise2025/src/W08/W08E07.java) — Movie theater seating system: displays 2D grid of theater seats, allows users to book seats with 2D coordinate validation, tracks seat availability (booked vs available), provides occupancy statistics and percentage.
+
+**Pattern**: Each exercise combines multiple W01-W07 concepts in realistic applications using static helper methods for code organization without custom classes.
+
+Summary of Week 09 (W09)
+-------------------------
+The `src/W09` folder demonstrates file I/O in text and binary form, resource management styles, and utility wrappers:
+
+- [`W09E01.java`](Exercise2025/src/W09/W09E01.java) — Write 10 random integers (0–1000) to `integer.txt` using text output.
+- [`W09E02.java`](Exercise2025/src/W09/W09E02.java) — Read integers from `integer.txt`, echo the list, and report the maximum value.
+- [`W09E03.java`](Exercise2025/src/W09/W09E03.java) — Write 10 random integers (0–1000) to `integer.dat` in binary using `ObjectOutputStream`.
+- [`W09E04.java`](Exercise2025/src/W09/W09E04.java) — Read integers from `integer.dat`, display them, and compute the average with EOF handling.
+- [`W09E05.java`](Exercise2025/src/W09/W09E05.java) — Encode a string to binary bits in `dataBinary.txt`, then decode back to text (original author: Badrul).
+- [`W09E06.java`](Exercise2025/src/W09/W09E06.java) — `java.io.File` usage demo: path metadata, create/check/delete files and directories, and list contents.
+- [`W09E07.java`](Exercise2025/src/W09/W09E07.java) — Contrast traditional try/finally resource handling with try-with-resources while reading a sample file.
+- [`W09E08.java`](Exercise2025/src/W09/W09E08.java) — Combined text-file workflow: static methods to write random ints to a file and read them back to find the max (E01+E02 in one class).
+- [`W09E09.java`](Exercise2025/src/W09/W09E09.java) — Combined binary-file workflow: static methods to write random ints to a binary file and read/average them (E03+E04 in one class).
+
+Summary of Week 10 (W10)
+-------------------------
+The `src/W10` folder provides a progressive introduction to object-oriented programming in Java, covering classes, encapsulation, and polymorphism concepts:
+
+- [`W10E01.java`](Exercise2025/src/W10/W10E01.java) — Introduction to classes: understanding what a class is, basic structure with instance variables, creating objects, and accessing attributes. Demonstrates the blueprint-object relationship.
+- [`W10E02.java`](Exercise2025/src/W10/W10E02.java) — Instance variables and methods: adding behavior to classes through methods, distinguishing instance vs local variables, methods that use and modify object state.
+- [`W10E03.java`](Exercise2025/src/W10/W10E03.java) — Constructors: special methods for object initialization, constructor syntax (same name as class, no return type), automatic invocation with `new`, and cleaner object creation.
+- [`W10E04.java`](Exercise2025/src/W10/W10E04.java) — Accessor methods (getters): introduction to encapsulation with `private` variables, creating getter methods for controlled read access, naming conventions (`getVariableName()`, `isVariableName()` for booleans).
+- [`W10E05.java`](Exercise2025/src/W10/W10E05.java) — Mutator methods (setters): creating setter methods for controlled write access, data validation in setters, maintaining data integrity, complete encapsulation pattern with getters and setters.
+- [`W10E06.java`](Exercise2025/src/W10/W10E06.java) — Complete class design: bringing together private variables, constructors, getters, setters, and behavior methods in a well-designed Product class following OOP principles.
+- [`W10E07.java`](Exercise2025/src/W10/W10E07.java) — Constructor overloading: multiple constructors with different parameter lists, providing flexibility in object creation, default values, and convenience constructors (e.g., square from one parameter).
+- [`W10E08.java`](Exercise2025/src/W10/W10E08.java) — Method overloading: multiple methods with same name but different parameters (number, type, or order), demonstrates type selection and practical Calculator class examples.
+- [`W10E09.java`](Exercise2025/src/W10/W10E09.java) — Combining constructor and method overloading: practical BankAccount class using both techniques together for maximum flexibility (deposit, withdraw, transfer with optional descriptions).
+- [`W10E10.java`](Exercise2025/src/W10/W10E10.java) — Comprehensive library system: complete application bringing all Week 10 concepts together with Book and Library classes, demonstrating object interactions, encapsulation, overloading, and real-world OOP design.
+
+Summary of Week 11 (W11)
+-------------------------
+The `src/W11` folder focuses on inheritance, overriding, constructors with `super`, access modifiers, and polymorphism:
+
+- [`W11E01.java`](Exercise2025/src/W11/W11E01.java) — Introduction to classes: simple fields, constructor, and instance method for self-introduction.
+- [`W11E02.java`](Exercise2025/src/W11/W11E02.java) — First inheritance example: child `StudentE02` extends parent `PersonE02`, reusing a greeting method.
+- [`W11E03.java`](Exercise2025/src/W11/W11E03.java) — Constructor chaining with `super`: parent runs first, child adds its own setup.
+- [`W11E04.java`](Exercise2025/src/W11/W11E04.java) — Overriding methods: child replaces parent description; dynamic dispatch chooses the child version.
+- [`W11E05.java`](Exercise2025/src/W11/W11E05.java) — Using `super.method()`: extend parent behavior while keeping its output.
+- [`W11E06.java`](Exercise2025/src/W11/W11E06.java) — Protected vs private members: subclasses can call protected methods; private stays inside the class.
+- [`W11E07.java`](Exercise2025/src/W11/W11E07.java) — Comparing access modifiers: public vs protected vs private visibility in practice.
+- [`W11E08.java`](Exercise2025/src/W11/W11E08.java) — Final methods: inherited behaviors that cannot be overridden.
+- [`W11E09.java`](Exercise2025/src/W11/W11E09.java) — Object class methods: overriding `toString()`, `equals()`, and `hashCode()` for readable and comparable objects.
+- [`W11E10.java`](Exercise2025/src/W11/W11E10.java) — Polymorphism with an abstract base: array of shapes calling each specific `area()` implementation.
+
+Summary of Week 12 (W12)
+-------------------------
+The `src/W12` folder continues W10/W11 by combining classes, subclasses, inheritance, polymorphism, overloading/overriding, and Scanner/PrintWriter I/O with basic exception handling:
+
+- [`W12E01.java`](Exercise2025/src/W12/W12E01.java) — Multi-level people hierarchy showing overriding vs overloading with polymorphic calls.
+- [`W12E02.java`](Exercise2025/src/W12/W12E02.java) — Vehicles with super reuse, overriding, and overloaded trip starters. Demonstrates inheritance, constructor chaining, and polymorphism.
+- [`W12E03.java`](Exercise2025/src/W12/W12E03.java) — Polymorphic shapes parsed via Scanner, written with PrintWriter using safe resources. Shows abstract base class and method overloading.
+- [`W12E04.java`](Exercise2025/src/W12/W12E04.java) — Payroll example reusing super logic, overriding pay, and overloading calculations. Demonstrates extending parent behavior with `super`.
+- [`W12E05.java`](Exercise2025/src/W12/W12E05.java) — Bank account with overloaded constructors/methods, constructor chaining with `this()`, and statement output via PrintWriter.
+- [`W12E06.java`](Exercise2025/src/W12/W12E06.java) — Abstract resources with overridden load flows and overloaded sources. Shows abstract class pattern and polymorphism with arrays.
+- [`W12E07.java`](Exercise2025/src/W12/W12E07.java) — Messaging notifiers demonstrating polymorphic send plus overloaded variants. Uses inheritance and method overloading.
+- [`W12E08.java`](Exercise2025/src/W12/W12E08.java) — Pet hierarchy built from Scanner input, runtime binding of speak, overloaded feeding. Demonstrates abstract methods and dynamic binding.
+- [`W12E09.java`](Exercise2025/src/W12/W12E09.java) — Number processing with overriding, overloading, Scanner validation, and PrintWriter output. Shows exception handling for input parsing.
+- [`W12E10.java`](Exercise2025/src/W12/W12E10.java) — Capstone grade tasks combining parsing, inheritance, overriding/overloading, and persisted results. Abstract class with multiple implementations.
+- [`W12E11.java`](Exercise2025/src/W12/W12E11.java) — Interface implementation with polymorphic product types (Books, Electronics). Demonstrates interface contracts, method overloading, and different tax calculations per type.
+- [`W12E12.java`](Exercise2025/src/W12/W12E12.java) — Advanced polymorphism with abstract classes and inheritance hierarchy. Bank accounts (Savings, Checking) with interest calculation, `super()` constructor chaining, and method overriding.
+- [`W12E13.java`](Exercise2025/src/W12/W12E13.java) — Capstone: combining interfaces, abstract classes, and polymorphism. Fleet management system with multiple interface implementation, abstract methods, method overloading, and runtime polymorphic dispatch. Demonstrates complete OOP patterns with detailed comments.
+- [`W12E14.java`](Exercise2025/src/W12/W12E14.java) — Polymorphism fundamentals: Early Binding vs Late Binding. Demonstrates method overloading (compile-time resolution) with Calculator class and method overriding (runtime resolution) with Animal hierarchy. Shows how JVM uses virtual method tables for dynamic dispatch.
+- [`W12E15.java`](Exercise2025/src/W12/W12E15.java) — Upcasting and safe downcasting with `instanceof`. Shows automatic upcasting of child objects to parent references and demonstrates proper downcasting patterns using `instanceof` checks. Includes practical examples with vehicle fleet analysis.
+- [`W12E16.java`](Exercise2025/src/W12/W12E16.java) — Clone method and Comparable interface. Demonstrates shallow vs deep copying, implements `clone()` for proper object duplication, and implements `Comparable<T>` for natural ordering with multi-level sort criteria (GPA, average score, name). Includes student ranking system.
+- [`W12E17.java`](Exercise2025/src/W12/W12E17.java) — Inner classes: Non-static inner, static nested, local, and anonymous. Shows all four types with practical examples: Transaction inner class accessing outer members, Address static nested class, LoginAttempt local class in method, and Validator anonymous class for event handling.
+
+Summary of Week 13 (W13)
+-------------------------
+The `src/W13` folder focuses on exception handling fundamentals, demonstrating how to catch errors gracefully, create custom exceptions, and manage resources with proper cleanup:
+
+- [`W13E01.java`](Exercise2025/src/W13/W13E01.java) — Basic try-catch exception handling: demonstrates the core mechanism with ArithmeticException from division by zero. Shows how the try block executes normally, exceptions are thrown and caught, and the program continues without crashing. Includes multiple division test cases.
+
+- [`W13E02.java`](Exercise2025/src/W13/W13E02.java) — Multiple catch blocks: handling different exception types (NumberFormatException, ArrayIndexOutOfBoundsException, ArithmeticException, Exception) with proper ordering from specific to general. Shows that only the first matching catch block executes and demonstrates catch block order importance.
+
+- [`W13E03.java`](Exercise2025/src/W13/W13E03.java) — Custom exception classes and throws keyword: defines InvalidAgeException and InvalidGradeException by extending Exception class. Demonstrates how methods declare `throws` to pass responsibility to callers. Includes voter eligibility checking and scholarship qualification examples showing practical validation use.
+
+- [`W13E04.java`](Exercise2025/src/W13/W13E04.java) — File I/O with exception handling and finally block: uses PrintWriter to write files while handling FileNotFoundException. Shows how finally block ALWAYS executes regardless of exception, ensuring proper resource cleanup and preventing file handle leaks. Includes multiple writing examples and student records demo.
+
+- [`W13E05.java`](Exercise2025/src/W13/W13E05.java) — Advanced custom exceptions with data carrying: custom exceptions (InsufficientFundsException, OutOfStockException) carry additional data beyond messages. Demonstrates using getter methods to retrieve exception data for context-aware error handling. Includes realistic banking system and inventory management with detailed error feedback.
+
+- [`W13E06.java`](Exercise2025/src/W13/W13E06.java) — Input validation with custom exceptions: practical validation scenarios with InvalidEmailException, InvalidPasswordException, InvalidPhoneNumberException, and InvalidUsernameException. Demonstrates validation rules (format, length, allowed characters) with comprehensive test cases for emails, passwords, phone numbers, and usernames.
+
+**Pattern**: Week 13 builds robust error handling practices through try-catch, custom exceptions, throws declarations, finally blocks, and resource management for professional-grade Java applications.
+
+
 How to run
 ----------
 
-### Option 1: Using Command Line
+### Option 1: Using Dev Container in VS Code (Recommended)
+This repository includes a `.devcontainer` configuration for the best development experience with VS Code:
+
+1. **Prerequisites:**
+   - Install [Visual Studio Code](https://code.visualstudio.com/)
+   - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   - Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) for VS Code
+
+2. **Open in Container:**
+   ```bash
+   git clone https://github.com/WIX1002-1-2018/exercise2025.git
+   cd exercise2025
+   code .
+   ```
+   - VS Code will detect the `.devcontainer` folder
+   - Click "Reopen in Container" when prompted (or press `F1` and select "Dev Containers: Reopen in Container")
+   - Wait for the container to build (first time only)
+
+3. **Run a program:**
+   - Navigate to any `.java` file in the `Exercise2025/src` folder
+   - Right-click and select "Run Java" or click the "Run" button above the `main` method
+   - Output will appear in the integrated terminal
+
+**Benefits of Dev Container:**
+- Pre-configured Java development environment
+- Consistent setup across all machines
+- No need to install Java locally
+- All dependencies and tools included
+
+### Option 2: Using Command Line
 From the `Exercise2025` directory you can compile and run any example using `javac` and `java`.
 
 Example (Unix / Linux / macOS):
@@ -86,7 +282,7 @@ javac -d out $(find src -name "*.java")
 java -cp out W02.W02E01
 ```
 
-### Option 2: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
+### Option 3: Using an IDE (NetBeans, IntelliJ IDEA, Eclipse, etc.)
 Students are free to clone this repository to any Java IDE:
 
 1. **Clone the repository:**
@@ -106,5 +302,9 @@ Students are free to clone this repository to any Java IDE:
 Notes
 -----
 - These examples are small, self-contained learning exercises intended for beginners.
+- Learn Fork and Pull Request. Try to add a new file and submit pull request.
+- If you help to contribute, your name will be listed as one of the contributor.
+
+Version 5.1
 
 
